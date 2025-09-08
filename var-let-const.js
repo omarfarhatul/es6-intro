@@ -17,3 +17,15 @@ const numbers=[35, 23, 75, 2, 4, 77, 32];
 numbers[3]=46;
 numbers.push(4, 7, 9);
 console.log(numbers);
+
+// object
+// reassign kora jabe
+let student = {
+    name: 'Moyna',
+    class: 6
+}
+student = {
+    name: 'Ayesha',
+    class: 4
+}
+console.log(student);
