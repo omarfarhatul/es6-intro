@@ -37,3 +37,9 @@ for(let i=0; i<10; i++){
     sum=sum+i;
 }
 console.log(sum);
+
+const n=6;
+let a=[];
+for(let i=0; i<n; i++){
+    console.log(i);
+}
