@@ -34,7 +34,7 @@ const multiply=(n1, n2, n3) => n1*n2*n3;
 const result7=multiply(7, 3, 6);
 console.log(result7);
 
-// single or one patameter
+// single or one parameter
 const getAge=(person) => person.age;
 const student={name: 'Hossain', age: 77}
 const age=getAge(student);
@@ -48,3 +48,17 @@ console.log(third);
 const doubleIt =num => num*2;
 const n1=doubleIt(4);
 console.log(n1);
+
+// na parameter
+const getPI=()=> Math.PI;
+console.log(getPI());
+
+// large arrow function
+const doMath=(x, y, z) => {
+    const sum=x+y+z;
+    const mul=x*y*z;
+    const result=sum+mul;
+    return result;
+}
+const result8=doMath(6, 3, 2);
+console.log(result8);
