@@ -1,3 +1,6 @@
+// for of use on array or string not in object
+// for in use on object
+
 const nums=[1, 4, 7, 2, 3, 8];
 for(const num of nums){
     console.log(num);
